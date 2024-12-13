@@ -1,0 +1,8 @@
+.home {
+  &__track-grid {
+    display: grid;
+    grid-template-columns: repeat(4, min-content);
+    justify-content: space-between;
+    row-gap: 1rem;
+  }
+}
