@@ -10,9 +10,13 @@ To look for the backend go to: [Spotify Powered Backend](https://github.com/orla
 ## Setup
 
 1 - Before executing the project be sure that the backend is up and running
+
 2 - Clone the repository
+
 3 - Duplicate the file `.env.template` and rename it to `.env.local`
+
 4 - Replace the contents of the `VITE_API_BASE_URL` variable with the url of the backend
+
 5 - Execute the following command to install the dependencies:
 
 ```bash
