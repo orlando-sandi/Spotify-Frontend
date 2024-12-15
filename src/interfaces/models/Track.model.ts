@@ -1,10 +1,9 @@
 export interface Track {
-  isrc: string;
-  artistName: string;
-  albumName: string;
-  albumCover: string;
-  playbackSeconds: number;
-  name: string;
-  isExplicit: boolean;
-  createdAt: Date;
+	isrc: string;
+	artistName: string;
+	albumName: string;
+	playbackSeconds: number;
+	name: string;
+	explicit: boolean;
+	createdAt: string;
 }

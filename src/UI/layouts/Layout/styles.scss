@@ -1,7 +1,7 @@
 .layout {
-  min-height: 100dvh;
-  &__content {
-    flex-grow: 1;
-    padding: 1rem;
-  }
+	min-height: 100dvh;
+	&__content {
+		flex-grow: 1;
+		padding: 1rem 3.125rem;
+	}
 }

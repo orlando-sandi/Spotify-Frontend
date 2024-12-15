@@ -1,0 +1,24 @@
+.add-track {
+	&__add-button {
+		flex-grow: 0;
+		width: fit-content;
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+
+	&__form {
+		width: 100%;
+		margin: auto;
+		@media screen and (min-width: 768px) {
+			width: 50dvw;
+		}
+	}
+
+	&__input {
+		text-transform: uppercase;
+
+		&::placeholder {
+			text-transform: none;
+		}
+	}
+}

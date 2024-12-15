@@ -1,0 +1,35 @@
+.track-details {
+	&__image-container {
+		width: 50vw;
+		@media screen and (min-width: 768px) {
+			width: 25vw;
+		}
+		img {
+			view-transition-name: cover-image;
+			contain: content;
+		}
+	}
+
+	&__information {
+		* {
+			text-align: center;
+			@media screen and (min-width: 768px) {
+				text-align: left;
+			}
+		}
+	}
+	&__title-container {
+		margin-bottom: 1rem;
+	}
+	&__title {
+		margin-bottom: 0 !important;
+	}
+	&__explicit-tooltip {
+		width: fit-content;
+	}
+	&__artist,
+	&__album {
+		margin-bottom: 0 !important;
+		margin-top: 0 !important;
+	}
+}
