@@ -13,7 +13,7 @@ To look for the backend go to: [Spotify Powered Backend](https://github.com/orla
 
 2 - Clone the repository
 
-3 - Duplicate the file `.env.template` and rename it to `.env.local`
+3 - Duplicate the file `.env.template` and rename it to `.env.local`. This file contents secrets needed for the frontend to work.
 
 4 - Replace the contents of the `VITE_API_BASE_URL` variable with the url of the backend
 
